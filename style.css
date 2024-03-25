@@ -1,0 +1,85 @@
+#one button {
+    display: block;
+    width: 250px;
+    text-align: right;
+    height: 30px;
+    font-size: x-large;
+    font-weight: 600;
+    margin-top: 10px;
+    border-radius: 6px;
+    position: static;
+    color: white;
+    font-family: arial;
+    border: none;
+}
+.butt1 {
+    background: rgb(0, 81, 255);
+    box-shadow: inset 0 0 6px 5px rgb(0, 200, 255);
+}
+#one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    height: 80vh;
+    width: 300px;
+    position: absolute;
+    left: -30px;
+    top: 10vh;
+    align-items: center;
+    margin: 0;
+}
+.butt2 {
+    background: blue;
+    box-shadow: inset 0 0 6px 5px rgb(0, 136, 255);
+}
+#two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    height: 80vh;
+    width: 300px;
+    position: absolute;
+    right: -30px;
+    top: 10vh;
+    align-items: center;
+    margin: 0;
+}
+#two button {
+    display: block;
+    width: 250px;
+    text-align: left;
+    height: 30px;
+    font-size: x-large;
+    font-weight: 600;
+    margin-top: 10px;
+    border-radius: 6px;
+    position: static;
+    color: white;
+    font-family: arial;
+    border: none;   
+}
+
+.butt0, .butt01 {
+    background: rgb(139, 0, 0);
+    box-shadow: inset 0 0 6px 5px red;
+}
+
+body {
+    overflow-x: hidden;   
+}
+
+#inputscalc {
+    position: absolute;
+    left: 40vw;
+    top: 30vh;
+    font-family: Consolas, 'Courier New', monospace;
+}
+#inputbutton {
+    margin-top: 10px;
+    position: absolute;
+    left: 40%;
+}
+input {
+    width: 300px;
+    font-family: Consolas, 'Courier New', monospace;
+}
